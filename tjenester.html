@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="nb-NO">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Elektro Vestland tilbyr et bredt spekter av elektriske tjenester: boliginstallasjon, elbillading, smarthus, sikringsskap, næring og akutt service i Bergen og Vestland.">
+    <meta name="keywords" content="elektriker tjenester bergen, el-installasjon vestland, sikringsskap oppgradering, smarthus elektriker, elektriker næring">
+
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect fill='%230A0A0F' width='100' height='100' rx='20'/%3E%3Cpath fill='%2300D4FF' d='M55 15L25 55h20L35 85l40-45H55L65 15z'/%3E%3C/svg%3E">
+
+    <title>Tjenester | Elektriker Bergen & Vestland | Elektro Vestland AS</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="index.html" class="logo">
+                    <div class="logo__icon">
+                        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="48" height="48" rx="12" fill="currentColor" fill-opacity="0.1"/>
+                            <path d="M27 8L12 26H22L18 40L34 20H24L28 8H27Z" fill="#00D4FF"/>
+                            <path d="M27 8L12 26H22L18 40L34 20H24L28 8H27Z" fill="url(#bolt-gradient-t)"/>
+                            <defs>
+                                <linearGradient id="bolt-gradient-t" x1="12" y1="8" x2="34" y2="40" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#00D4FF"/>
+                                    <stop offset="1" stop-color="#FFE500"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div class="logo__text">
+                        <span class="logo__name">ELEKTRO VESTLAND</span>
+                        <span class="logo__tagline">Din elektriker i Vestland</span>
+                    </div>
+                </a>
+
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li><a href="index.html" class="nav__link">Hjem</a></li>
+                        <li><a href="tjenester.html" class="nav__link active">Tjenester</a></li>
+                        <li><a href="elbillading.html" class="nav__link">Elbillading</a></li>
+                        <li><a href="om-oss.html" class="nav__link">Om Oss</a></li>
+                        <li><a href="prosjekter.html" class="nav__link">Prosjekter</a></li>
+                        <li><a href="kontakt.html" class="nav__link">Kontakt</a></li>
+                    </ul>
+                    <div class="nav__actions">
+                        <button class="theme-toggle" aria-label="Bytt tema">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="5"/>
+                                <line x1="12" y1="1" x2="12" y2="3"/>
+                                <line x1="12" y1="21" x2="12" y2="23"/>
+                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+                                <line x1="1" y1="12" x2="3" y2="12"/>
+                                <line x1="21" y1="12" x2="23" y2="12"/>
+                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+                                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+                            </svg>
+                        </button>
+                        <a href="kontakt.html" class="btn btn--primary">Få Gratis Befaring</a>
+                    </div>
+                </nav>
+
+                <button class="mobile-toggle" aria-label="Meny">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="page-header__content">
+                <nav class="page-header__breadcrumb">
+                    <a href="index.html" class="page-header__breadcrumb-link">Hjem</a>
+                    <span class="page-header__breadcrumb-separator">/</span>
+                    <span class="page-header__breadcrumb-current">Tjenester</span>
+                </nav>
+                <h1 class="page-header__title heading-xl">Våre Tjenester</h1>
+                <p class="page-header__description">
+                    Fra enkle reparasjoner til komplette installasjoner - vi har kompetansen og erfaringen for alle typer elektrisk arbeid.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Boliginstallasjon -->
+    <section class="section" id="bolig">
+        <div class="container">
+            <div class="service-detail">
+                <div class="service-detail__main">
+                    <div class="service-detail__section animate-on-scroll">
+                        <h2 class="service-detail__section-title">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/>
+                                <polyline points="9 22 9 12 15 12 15 22"/>
+                            </svg>
+                            Boliginstallasjon
+                        </h2>
+                        <p style="color: var(--text-secondary); margin-bottom: var(--space-lg);">
+                            Komplett elektrisk opplegg for din bolig, enten du bygger nytt, renoverer eller trenger oppgraderinger. Vi sørger for sikre og moderne løsninger tilpasset dine behov.
+                        </p>
+
+                        <h3 class="heading-sm" style="margin-bottom: var(--space-md);">Vi tilbyr:</h3>
+                        <ul class="service-detail__list">
+                            <li class="service-detail__list-item">Elektrisk opplegg ved nybygg og tilbygg</li>
+                            <li class="service-detail__list-item">Komplett renovering av elektrisk anlegg</li>
+                            <li class="service-detail__list-item">Installasjon av stikkontakter og brytere</li>
+                            <li class="service-detail__list-item">Belysningsanlegg inne og ute</li>
+                            <li class="service-detail__list-item">Varmekabler og elektrisk gulvvarme</li>
+                            <li class="service-detail__list-item">Varmtvannsberedere og varmepumper</li>
+                            <li class="service-detail__list-item">Ventilasjon og avtrekk</li>
+                            <li class="service-detail__list-item">Komfyrvakt og brannvarsling</li>
+                        </ul>
+                    </div>
+
+                    <div class="service-detail__section animate-on-scroll">
+                        <h3 class="service-detail__section-title">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                            </svg>
+                            Sikkerhet og Garanti
+                        </h3>
+                        <p style="color: var(--text-secondary);">
+                            Alt arbeid utføres i henhold til NEK 400 og gjeldende forskrifter. Du får alltid samsvarserklæring som dokumentasjon på at arbeidet er utført av autorisert installatør.
+                        </p>
+                    </div>
+                </div>
+
+                <aside class="service-detail__sidebar">
+                    <div class="sidebar-card sidebar-card--highlight animate-on-scroll">
+                        <h3 class="sidebar-card__title">Priser</h3>
+                        <div class="sidebar-card__price">
+                            <span class="sidebar-card__price-prefix">Fra</span>
+                            <span class="sidebar-card__price-value">950</span>
+                            <span class="sidebar-card__price-suffix">kr/time</span>
+                        </div>
+                        <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: var(--space-md);">
+                            Priser eks. mva. Befaring og tilbud er gratis og uforpliktende.
+                        </p>
+                        <a href="kontakt.html" class="btn btn--primary" style="width: 100%;">Få Tilbud</a>
+                    </div>
+
+                    <div class="sidebar-card animate-on-scroll">
+                        <h3 class="sidebar-card__title">Rask Kontakt</h3>
+                        <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: var(--space-md);">
+                            Ring oss for rask avklaring eller booking av befaring.
+                        </p>
+                        <a href="tel:+47400XXXXX" class="btn btn--secondary" style="width: 100%;">
+                            <svg style="width: 18px; height: 18px; margin-right: 8px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+                            </svg>
+                            400 XX XXX
+                        </a>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sikringsskap -->
+    <section class="section" id="sikringsskap" style="background: var(--bg-secondary);">
+        <div class="container">
+            <div class="service-detail">
+                <div class="service-detail__main">
+                    <div class="service-detail__section animate-on-scroll">
+                        <h2 class="service-detail__section-title">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                                <line x1="9" y1="3" x2="9" y2="21"/>
+                                <line x1="15" y1="3" x2="15" y2="21"/>
+                            </svg>
+                            Sikringsskap & Oppgradering
+                        </h2>
+                        <p style="color: var(--text-secondary); margin-bottom: var(--space-lg);">
+                            Eldre sikringsskap med skrusikringer bør oppgraderes til moderne automatsikringer og jordfeilbrytere. Dette gir bedre sikkerhet og kapasitet for dagens behov.
+                        </p>
+
+                        <h3 class="heading-sm" style="margin-bottom: var(--space-md);">Tjenester inkluderer:</h3>
+                        <ul class="service-detail__list">
+                            <li class="service-detail__list-item">Bytte fra skrusikringer til automatsikringer</li>
+                            <li class="service-detail__list-item">Installasjon av jordfeilbryter</li>
+                            <li class="service-detail__list-item">Overspenningsvern for sensitiv elektronikk</li>
+                            <li class="service-detail__list-item">Utvidelse av kapasitet (flere kurser)</li>
+                            <li class="service-detail__list-item">Komplett utskifting av gammelt skap</li>
+                            <li class="service-detail__list-item">El-sjekk og tilstandsrapport</li>
+                        </ul>
+                    </div>
+
+                    <div class="service-detail__section animate-on-scroll">
+                        <h3 class="service-detail__section-title">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <line x1="12" y1="8" x2="12" y2="12"/>
+                                <line x1="12" y1="16" x2="12.01" y2="16"/>
+                            </svg>
+                            Når Bør Du Oppgradere?
+                        </h3>
+                        <ul class="service-detail__list">
+                            <li class="service-detail__list-item">Sikringer ryker ofte eller uten åpenbar grunn</li>
+                            <li class="service-detail__list-item">Du har gamle skrusikringer (porselensikringer)</li>
+                            <li class="service-detail__list-item">Boligen mangler jordfeilbryter</li>
+                            <li class="service-detail__list-item">Du skal installere elbillader eller annet som krever kapasitet</li>
+                            <li class="service-detail__list-item">Anlegget er over 30 år gammelt</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <aside class="service-detail__sidebar">
+                    <div class="sidebar-card sidebar-card--highlight animate-on-scroll">
+                        <h3 class="sidebar-card__title">Sikringsskap</h3>
+                        <div class="sidebar-card__price">
+                            <span class="sidebar-card__price-prefix">Fra</span>
+                            <span class="sidebar-card__price-value">25.000</span>
+                            <span class="sidebar-card__price-suffix">kr</span>
+                        </div>
+                        <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: var(--space-md);">
+                            Komplett oppgradering inkludert nytt skap, automatsikringer og jordfeilbryter.
+                        </p>
+                        <a href="kontakt.html" class="btn btn--primary" style="width: 100%;">Få Tilbud</a>
+                    </div>
+
+                    <div class="sidebar-card animate-on-scroll">
+                        <h3 class="sidebar-card__title">El-Sjekk</h3>
+                        <div class="sidebar-card__price">
+                            <span class="sidebar-card__price-prefix">Fra</span>
+                            <span class="sidebar-card__price-value">2.500</span>
+                            <span class="sidebar-card__price-suffix">kr</span>
+                        </div>
+                        <p style="color: var(--text-secondary); font-size: 0.9rem;">
+                            Grundig gjennomgang av det elektriske anlegget med skriftlig rapport.
+                        </p>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!-- Smarthus -->
+    <section class="section" id="smarthus">
+        <div class="container">
+            <div class="service-detail">
+                <div class="service-detail__main">
+                    <div class="service-detail__section animate-on-scroll">
+                        <h2 class="service-detail__section-title">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/>
+                                <polyline points="9 22 9 12 15 12 15 22"/>
+                            </svg>
+                            Smarthus & Automasjon
+                        </h2>
+                        <p style="color: var(--text-secondary); margin-bottom: var(--space-lg);">
+                            Gjør hjemmet smartere med intelligent styring av lys, varme og sikkerhet. Vi hjelper deg med å velge riktige løsninger og sørger for profesjonell installasjon.
+                        </p>
+
+                        <h3 class="heading-sm" style="margin-bottom: var(--space-md);">Smarthus-løsninger:</h3>
+                        <ul class="service-detail__list">
+                            <li class="service-detail__list-item">Smart belysning (Philips Hue, IKEA Tradfri, etc.)</li>
+                            <li class="service-detail__list-item">Intelligent varmeregulering og termostater</li>
+                            <li class="service-detail__list-item">Motoriserte persienner og gardiner</li>
+                            <li class="service-detail__list-item">Smart dørklokke og adgangskontroll</li>
+                            <li class="service-detail__list-item">Sikkerhetskameraer og alarmsystemer</li>
+                            <li class="service-detail__list-item">Integrasjon med Google Home, Alexa, Apple HomeKit</li>
+                            <li class="service-detail__list-item">Sentralisert styring via app eller panel</li>
+                        </ul>
+                    </div>
+
+                    <div class="service-detail__section animate-on-scroll">
+                        <h3 class="service-detail__section-title">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+                            </svg>
+                            Fordeler med Smarthus
+                        </h3>
+                        <ul class="service-detail__list">
+                            <li class="service-detail__list-item">Energisparing gjennom smart styring</li>
+                            <li class="service-detail__list-item">Økt komfort og bekvemmelighet</li>
+                            <li class="service-detail__list-item">Bedre sikkerhet med fjernovervåking</li>
+                            <li class="service-detail__list-item">Verdistigning på boligen</li>
+                            <li class="service-detail__list-item">Tilpasset belysning for ulike aktiviteter</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <aside class="service-detail__sidebar">
+                    <div class="sidebar-card sidebar-card--highlight animate-on-scroll">
+                        <h3 class="sidebar-card__title">Smarthus</h3>
+                        <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: var(--space-md);">
+                            Pris avhenger av omfang og ønsket funksjonalitet. Vi gir deg et detaljert tilbud etter befaring.
+                        </p>
+                        <a href="kontakt.html" class="btn btn--primary" style="width: 100%;">Få Tilbud</a>
+                    </div>
+
+                    <div class="sidebar-card animate-on-scroll">
+                        <h3 class="sidebar-card__title">Populære Merker</h3>
+                        <p style="color: var(--text-secondary); font-size: 0.9rem;">
+                            Vi jobber med alle ledende smarthus-plattformer: Philips Hue, IKEA Smart Home, Fibaro, Netatmo, Ring, Arlo og flere.
+                        </p>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!-- Næring & Industri -->
+    <section class="section" id="naering" style="background: var(--bg-secondary);">
+        <div class="container">
+            <div class="service-detail">
+                <div class="service-detail__main">
+                    <div class="service-detail__section animate-on-scroll">
+                        <h2 class="service-detail__section-title">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
+                                <path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/>
+                            </svg>
+                            Næring & Industri
+                        </h2>
+                        <p style="color: var(--text-secondary); margin-bottom: var(--space-lg);">
+                            Vi leverer elektriske løsninger for næringsliv og industri i hele Vestland. Fra butikkinstallasjoner til industrianlegg - vi har kapasiteten og kompetansen.
+                        </p>
+
+                        <h3 class="heading-sm" style="margin-bottom: var(--space-md);">Næringstjenester:</h3>
+                        <ul class="service-detail__list">
+                            <li class="service-detail__list-item">Butikk- og kontorinstallasjoner</li>
+                            <li class="service-detail__list-item">Restauranter og serveringssteder</li>
+                            <li class="service-detail__list-item">Lagerbygg og produksjonslokaler</li>
+                            <li class="service-detail__list-item">Borettslag og sameier</li>
+                            <li class="service-detail__list-item">Ladeinfrastruktur for parkeringsanlegg</li>
+                            <li class="service-detail__list-item">Nødlys og rømningsbelysning</li>
+                            <li class="service-detail__list-item">Serviceavtaler og vedlikehold</li>
+                        </ul>
+                    </div>
+
+                    <div class="service-detail__section animate-on-scroll">
+                        <h3 class="service-detail__section-title">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/>
+                                <path d="M14 2v6h6"/>
+                                <path d="M9 15l2 2 4-4"/>
+                            </svg>
+                            Serviceavtaler
+                        </h3>
+                        <p style="color: var(--text-secondary);">
+                            Vi tilbyr skreddersydde serviceavtaler som sikrer at ditt elektriske anlegg alltid er i topp stand. Regelmessig vedlikehold forebygger nedetid og dyre akuttutrykkinger.
+                        </p>
+                    </div>
+                </div>
+
+                <aside class="service-detail__sidebar">
+                    <div class="sidebar-card sidebar-card--highlight animate-on-scroll">
+                        <h3 class="sidebar-card__title">Næring</h3>
+                        <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: var(--space-md);">
+                            Ta kontakt for befaring og tilbud. Vi tilpasser løsningen til din bedrifts behov og budsjett.
+                        </p>
+                        <a href="kontakt.html" class="btn btn--primary" style="width: 100%;">Kontakt Oss</a>
+                    </div>
+
+                    <div class="sidebar-card animate-on-scroll">
+                        <h3 class="sidebar-card__title">Borettslag</h3>
+                        <p style="color: var(--text-secondary); font-size: 0.9rem;">
+                            Spesialtilbud for borettslag og sameier. Vi kan bistå med fellesanlegg, lading i garasjer og oppgradering av elektriske hovedanlegg.
+                        </p>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service & Akutt -->
+    <section class="section" id="akutt">
+        <div class="container">
+            <div class="service-detail">
+                <div class="service-detail__main">
+                    <div class="service-detail__section animate-on-scroll">
+                        <h2 class="service-detail__section-title">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+                            </svg>
+                            Service & Akutt
+                        </h2>
+                        <p style="color: var(--text-secondary); margin-bottom: var(--space-lg);">
+                            Strømbrudd? Elektrisk feil? Vi stiller opp når du trenger det. Vår akuttjeneste er tilgjengelig for hastetilfeller, og vi prioriterer sikkerhetskritiske situasjoner.
+                        </p>
+
+                        <h3 class="heading-sm" style="margin-bottom: var(--space-md);">Servicetjenester:</h3>
+                        <ul class="service-detail__list">
+                            <li class="service-detail__list-item">Feilsøking og reparasjon</li>
+                            <li class="service-detail__list-item">Akutt elektriker ved strømbrudd</li>
+                            <li class="service-detail__list-item">Utskifting av defekte komponenter</li>
+                            <li class="service-detail__list-item">Forebyggende vedlikehold</li>
+                            <li class="service-detail__list-item">Småjobber og quick fixes</li>
+                            <li class="service-detail__list-item">El-sjekk før boligsalg/-kjøp</li>
+                        </ul>
+                    </div>
+
+                    <div class="service-detail__section animate-on-scroll" style="background: rgba(255, 51, 102, 0.1); border-color: var(--danger-red);">
+                        <h3 class="service-detail__section-title" style="color: var(--danger-red);">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/>
+                                <line x1="12" y1="9" x2="12" y2="13"/>
+                                <line x1="12" y1="17" x2="12.01" y2="17"/>
+                            </svg>
+                            Akutt? Ring Nå!
+                        </h3>
+                        <p style="color: var(--text-secondary); margin-bottom: var(--space-md);">
+                            Ved akutte elektriske problemer som kan utgjøre en sikkerhetsrisiko, ring oss umiddelbart.
+                        </p>
+                        <a href="tel:+47400XXXXX" style="font-family: var(--font-display); font-size: 2rem; color: var(--danger-red);">
+                            400 XX XXX
+                        </a>
+                    </div>
+                </div>
+
+                <aside class="service-detail__sidebar">
+                    <div class="sidebar-card sidebar-card--highlight animate-on-scroll">
+                        <h3 class="sidebar-card__title">Serviceoppdrag</h3>
+                        <div class="sidebar-card__price">
+                            <span class="sidebar-card__price-prefix">Fra</span>
+                            <span class="sidebar-card__price-value">950</span>
+                            <span class="sidebar-card__price-suffix">kr/time</span>
+                        </div>
+                        <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: var(--space-md);">
+                            Akutt-tillegg kan påløpe utenom ordinær arbeidstid.
+                        </p>
+                        <a href="tel:+47400XXXXX" class="btn btn--primary" style="width: 100%;">Ring Nå</a>
+                    </div>
+
+                    <div class="sidebar-card animate-on-scroll">
+                        <h3 class="sidebar-card__title">Åpningstider</h3>
+                        <p style="color: var(--text-secondary); font-size: 0.9rem;">
+                            <strong>Man-Fre:</strong> 07:00 - 16:00<br>
+                            <strong>Akutt:</strong> Ring for tilgjengelighet
+                        </p>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section cta">
+        <div class="container">
+            <div class="cta__inner">
+                <div class="cta__content">
+                    <h2 class="cta__title heading-lg">Fant Du Det<br>Du Trengte?</h2>
+                    <p class="cta__description">
+                        Ta kontakt for en uforpliktende befaring og tilbud. Vi hjelper deg gjerne med å finne den beste løsningen.
+                    </p>
+                    <div class="cta__actions">
+                        <a href="kontakt.html" class="btn btn--primary btn--large">
+                            Få Gratis Befaring
+                            <svg class="btn__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </a>
+                        <a href="elbillading.html" class="btn btn--secondary btn--large">Se Elbillading</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="footer__brand">
+                    <a href="index.html" class="logo">
+                        <div class="logo__icon">
+                            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="48" height="48" rx="12" fill="currentColor" fill-opacity="0.1"/>
+                                <path d="M27 8L12 26H22L18 40L34 20H24L28 8H27Z" fill="#00D4FF"/>
+                            </svg>
+                        </div>
+                        <div class="logo__text">
+                            <span class="logo__name">ELEKTRO VESTLAND</span>
+                            <span class="logo__tagline">Din elektriker i Vestland</span>
+                        </div>
+                    </a>
+                    <p class="footer__description">
+                        Autorisert elektroinstallatør med base i Åsane, Bergen. Vi leverer kvalitetsarbeid for bolig og næring i hele Vestland fylke.
+                    </p>
+                </div>
+
+                <div class="footer__column">
+                    <h4 class="footer__column-title">Tjenester</h4>
+                    <ul class="footer__links">
+                        <li><a href="elbillading.html" class="footer__link">Elbillading</a></li>
+                        <li><a href="tjenester.html#smarthus" class="footer__link">Smarthus</a></li>
+                        <li><a href="tjenester.html#sikringsskap" class="footer__link">Sikringsskap</a></li>
+                        <li><a href="tjenester.html#bolig" class="footer__link">Boliginstallasjon</a></li>
+                        <li><a href="tjenester.html#naering" class="footer__link">Næring & Industri</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__column">
+                    <h4 class="footer__column-title">Selskapet</h4>
+                    <ul class="footer__links">
+                        <li><a href="om-oss.html" class="footer__link">Om Oss</a></li>
+                        <li><a href="prosjekter.html" class="footer__link">Prosjekter</a></li>
+                        <li><a href="kontakt.html" class="footer__link">Kontakt</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__column">
+                    <h4 class="footer__column-title">Kontakt</h4>
+                    <div class="footer__contact-item">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                            <circle cx="12" cy="10" r="3"/>
+                        </svg>
+                        <span>Haukeberget 15<br>5119 Ulset, Bergen</span>
+                    </div>
+                    <div class="footer__contact-item">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+                        </svg>
+                        <span><a href="tel:+47400XXXXX">400 XX XXX</a></span>
+                    </div>
+                    <div class="footer__contact-item">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                            <polyline points="22,6 12,13 2,6"/>
+                        </svg>
+                        <span><a href="mailto:post@elektrovestland.no">post@elektrovestland.no</a></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p class="footer__copyright">
+                    &copy; 2026 Elektro Vestland AS. Org.nr: 837 018 552. Alle rettigheter reservert.
+                </p>
+                <div class="footer__legal">
+                    <a href="#" class="footer__legal-link">Personvern</a>
+                    <a href="#" class="footer__legal-link">Vilkår</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
